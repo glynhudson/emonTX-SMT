@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12342,9 +12342,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.368" y="10.287" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="17.78" y="10.16" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="D2" library="adafruit" package="SOD-323F" value="0.5A schottky" x="81.26" y="20.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.1568" y="19.8716" size="0.508" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="82.6298" y="18.7588" size="0.381" layer="27" font="vector" rot="R90"/>
+<element name="D2" library="adafruit" package="SOD-123" value="0.5A schottky" x="81.3" y="20.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="83.6732" y="20.7684" size="0.508" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="79.9302" y="21.8812" size="0.381" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="3XAAA" library="Battery Holders" package="AAA_PCB_HOLDER" value="4.5V" x="31.75" y="46.99">
 <attribute name="RAPID_OC" value="18-2967" x="31.75" y="46.99" size="1.778" layer="27" display="off"/>
@@ -12369,9 +12369,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.1404" y="34.544" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="29.3116" y="34.5948" size="0.6096" layer="27" rot="R180"/>
 </element>
-<element name="F1" library="rcl" package="R1210" value="500mA" x="73.95" y="11.3"/>
+<element name="F1" library="rcl" package="R1210" value="500mA" x="76.2" y="12.7"/>
 <element name="U$6" library="adafruit" package="XBEE" value="XBEE" x="85.09" y="41.91" smashed="yes"/>
-<element name="D1" library="adafruit" package="SOD-123" value="1N4148 30V 150mA (Av)" x="60.96" y="8.89" smashed="yes" rot="R180">
+<element name="D1" library="adafruit" package="SOD-323F" value="1N4148 30V 150mA (Av)" x="60.96" y="8.89" smashed="yes" rot="R180">
 <attribute name="ABBREV" value="emonTx" x="60.96" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DRAWING_AUTHOR" value="Glyn Hudson" x="60.96" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PROJECT" value="OpenEnergyMonitor" x="60.96" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
@@ -12676,8 +12676,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="61.976" y="13.3604" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R23" library="rcl" package="R1210" value="40mA Holding 150mA trip" x="59.69" y="12.7"/>
-<element name="U$3" library="OpenEnergyMonitor" package="SOT89" value="MCP1702" x="89.5604" y="15.6972">
-<attribute name="OUTPUT" value="3.3V" x="89.5604" y="15.6972" size="1.778" layer="27" display="off"/>
+<element name="U$3" library="OpenEnergyMonitor" package="SOT89" value="MCP1702" x="90.17" y="15.24">
+<attribute name="OUTPUT" value="3.3V" x="90.17" y="15.24" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H1" library="holes" package="3,0-PAD" value="MOUNT-PAD-ROUND3.0" x="4.2164" y="4.2418"/>
 <element name="H2" library="holes" package="3,0-PAD" value="MOUNT-PAD-ROUND3.0" x="-30.5562" y="-5.715">
@@ -13445,12 +13445,12 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="2"/>
 <contactref element="U$3" pad="2.1"/>
 <wire x1="85.23" y1="22.86" x2="85.23" y2="27.8254" width="0" layer="19" extent="1-1"/>
-<wire x1="81.26" y1="21.3" x2="85.23" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="81.3" y1="22.19" x2="85.23" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="85.683" y1="16.8148" x2="85.23" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="89.5604" y1="16.5862" x2="85.683" y2="16.8148" width="0" layer="19" extent="1-1"/>
-<wire x1="89.5604" y1="13.9702" x2="89.5604" y2="16.5862" width="0" layer="19" extent="1-1"/>
-<wire x1="95.44" y1="12.897" x2="89.5604" y2="13.9702" width="0" layer="19" extent="1-1"/>
-<wire x1="71" y1="19.05" x2="81.26" y2="21.3" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="16.129" x2="85.683" y2="16.8148" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="13.513" x2="90.17" y2="16.129" width="0" layer="19" extent="1-1"/>
+<wire x1="95.44" y1="12.897" x2="90.17" y2="13.513" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="19.05" x2="81.3" y2="22.19" width="0" layer="19" extent="1-1"/>
 <wire x1="45.9232" y1="6.2738" x2="71" y2="19.05" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$13">
@@ -13497,7 +13497,7 @@ design rules under a new name.</description>
 <signal name="N$4" class="1">
 <contactref element="F1" pad="2"/>
 <contactref element="D2" pad="A"/>
-<wire x1="75.35" y1="11.3" x2="81.26" y2="19.3" width="0" layer="19" extent="1-1"/>
+<wire x1="77.6" y1="12.7" x2="81.3" y2="18.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R12" pad="2"/>
@@ -13665,13 +13665,13 @@ design rules under a new name.</description>
 <wire x1="63.4746" y1="34.7146" x2="60.75" y2="31.99" width="0.254" layer="16"/>
 <wire x1="92.3544" y1="26.924" x2="93.65" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="93.98" y1="17.36" x2="93.65" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="91.0594" y1="13.7162" x2="93.98" y2="17.36" width="0" layer="19" extent="1-1"/>
+<wire x1="91.669" y1="13.259" x2="93.98" y2="17.36" width="0" layer="19" extent="1-1"/>
 <wire x1="43.18" y1="40.22" x2="35.56" y2="40.22" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6" class="1">
 <contactref element="D1" pad="C"/>
 <contactref element="R39" pad="1"/>
-<wire x1="62.81" y1="8.89" x2="65.11" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="59.96" y1="8.89" x2="65.11" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R29" pad="1"/>
@@ -14260,8 +14260,8 @@ design rules under a new name.</description>
 <wire x1="61.214" y1="46.482" x2="62.23" y2="45.466" width="0.1524" layer="1"/>
 <wire x1="62.23" y1="45.466" x2="62.23" y2="44.958" width="0.1524" layer="1"/>
 <wire x1="62.23" y1="44.958" x2="66.04" y2="41.148" width="0.1524" layer="1"/>
-<wire x1="72.55" y1="11.3" x2="69.2912" y2="29.1084" width="0" layer="19" extent="1-1"/>
-<wire x1="66.548" y1="7.62" x2="72.55" y2="11.3" width="0" layer="19" extent="1-1"/>
+<wire x1="74.8" y1="12.7" x2="69.2912" y2="29.1084" width="0" layer="19" extent="1-1"/>
+<wire x1="66.548" y1="7.62" x2="74.8" y2="12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="69.82" y1="4.07" x2="66.548" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIG13">
@@ -14728,7 +14728,7 @@ design rules under a new name.</description>
 <signal name="N$36">
 <contactref element="D1" pad="A"/>
 <contactref element="R23" pad="2"/>
-<wire x1="59.11" y1="8.89" x2="61.09" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="61.96" y1="8.89" x2="61.09" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
